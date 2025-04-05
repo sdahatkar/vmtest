@@ -21,7 +21,9 @@ namespace VMTest.Application.Mappers
                 DiscountBand = sale.DiscountBand,
                 UnitsSold = sale.UnitsSold,
                 ManufacturingPrice = sale.ManufacturingPrice,
+                ManufacturingPriceCurrency = sale.ManufacturingPriceCurrency,
                 SalePrice = sale.SalePrice,
+                SalePriceCurrency = sale.SalePriceCurrency,
                 Date = sale.Date
             };
         }

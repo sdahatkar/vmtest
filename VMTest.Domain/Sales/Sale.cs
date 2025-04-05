@@ -8,7 +8,9 @@
         public required string DiscountBand { get; set; }
         public decimal UnitsSold { get; set; }
         public decimal ManufacturingPrice { get; set; }
+        public required string ManufacturingPriceCurrency { get; set; }
         public decimal SalePrice { get; set; }
+        public required string SalePriceCurrency { get; set; }
         public DateTime Date { get; set; }
     }
 }

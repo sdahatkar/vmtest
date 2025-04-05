@@ -20,7 +20,9 @@ namespace VMTest.Infrastructure.Data.Csv.Mappers
             Map(x => x.DiscountBand).Name("Discount Band");
             Map(x => x.UnitsSold).Name("Units Sold");
             Map(x => x.ManufacturingPrice).Name("Manufacturing Price").TypeConverter<PriceConverter>();
+            Map(x => x.ManufacturingPriceCurrency).Name("Manufacturing Price").TypeConverter<CurrencyConverter>();
             Map(x => x.SalePrice).Name("Sale Price").TypeConverter<PriceConverter>();
+            Map(x => x.SalePriceCurrency).Name("Sale Price").TypeConverter<CurrencyConverter>();
             Map(x => x.Date).Name("Date").TypeConverter<DateConverter>();
         }
     }

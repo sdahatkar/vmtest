@@ -6,7 +6,7 @@ namespace VMTest.Api
     {
         public static IApplicationBuilder MapEndpoints(this WebApplication app)
         {
-            app.MapGet("sales", async (ISalesReportService salesReportService) =>
+            app.MapGet("api/sales", async (ISalesReportService salesReportService) =>
             {
                 var sales = await salesReportService.GetAllSales();
 
