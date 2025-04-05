@@ -13,4 +13,5 @@
 - Lot more can be done but this is the basic version highlighting the architecture, design and the structure of the project
 - For example
 > pagination is only done in the front end due to time constraint
+> 
 > Logger is not persistent
